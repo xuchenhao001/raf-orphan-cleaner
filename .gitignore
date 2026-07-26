@@ -1,0 +1,27 @@
+# Built binaries
+/raf-orphan-cleaner
+/raf-orphan-cleaner.exe
+*.exe
+dist/
+
+# Test / coverage
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# Photos (safety net if the tool is run from this directory)
+*.RAF
+*.raf
+*.JPG
+*.jpg
+*.JPEG
+*.jpeg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
